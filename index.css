@@ -1,0 +1,103 @@
+html,
+body {
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+}
+
+main {
+    width: 40%;
+    min-width: 35%;
+    max-width: 45%;
+    height: 250px;
+    border: 2px solid white;
+}
+
+section:first-child {
+    border: 2px dashed burlywood;
+    margin: 5px;
+    padding: 3px;
+    color: aquamarine;
+    text-align: center;
+    font-size: 36px;
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.heading:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    transform: scale(1.1, 1.2);
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    color: paleturquoise;
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 10px;
+    width: 90px;
+    height: 35px;
+    box-shadow: 1px;
+    margin: auto auto;
+    margin-top: 20px;
+}
+
+.inputAndResult {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+input[name="decimal"] {
+    width: 65px;
+    height: 35px;
+    font-size: 25px;
+}
+
+input[name="answer"] {
+    width: auto;
+    max-width: 90px;
+    height: 35px;
+    font-size: 25px;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: burlywood;
+    border: 2px solid #f7d3ba;
+}
+
+input[type="reset"] {
+    background-color: grey;
+    border: 2px solid rgb(114, 112, 112);
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(173, 108, 62);
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(97, 96, 96);
+}
